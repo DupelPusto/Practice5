@@ -28,6 +28,8 @@ public class Pract5Second
         } else if (x > 2) {
             res =  (3 * Math.pow(x, 2)) + (b * x) + 1;
             System.out.println("The result is: " + res);
+        } else {
+            System.out.println("The number you entered is incorrect. Try again");
         }
 
 
